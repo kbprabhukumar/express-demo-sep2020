@@ -2,7 +2,7 @@
 const express = require('express'); //mvc framework expressJS
 const app = express(); // get a referecnes of express and assign to app variable
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log('App running on port %s', port);
